@@ -10,6 +10,10 @@
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "noUnusedLocals": true,
-    "skipLibCheck": true
-  }
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "outDir": "lib"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/__tests__/*.ts"]
 }
